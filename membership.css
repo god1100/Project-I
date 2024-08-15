@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin: 0 10px;
+}
+
+.icon-instagram {
+    width: 0.857421875em;
+}
+
+.icon-facebook {
+    width: 0.587890625em;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 81, 81);
+}
+
+.header-top fieldset{
+    display: inline;
+    border: none;
+}
+
+
+
+/* Header main */
+.header-main{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: gray;
+    height: 80px;
+}
+
+.header-main img{
+    width: 200px; 
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar a, .gym-contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+
+/* Form */
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.signup-section{
+    display: flex;
+    gap: 100px;
+}
+
+.signup-section img{
+    width: 500px;
+    margin-left: 50px;
+}
+
+form{
+    width: 100%;
+}
+
+form legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form label{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+form span{
+    color: red;
+}
+
+form input{
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 5px 9px;
+}
+
+.form-group{
+    margin: 5px 0;
+}
+.age-input, .gender-input, .weight-input, .height-input{
+    display: inline-block;
+}
+
+.gender-input label{
+    margin-right: 10px;
+}
+
+.age-input input, .weight-input input, .height-input input{
+    width: 50px;
+}
+
+.age-input, .weight-input{
+    margin-right: 60px;
+}
+
+.form-group input{
+    margin: 10px;
+    margin-left: 0;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: black;
+    height: 150px;
+    margin-top: 10px;
+}
+
+main{
+    background-color: rgb(84, 80, 80);
+}
